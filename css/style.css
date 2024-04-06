@@ -10,6 +10,9 @@
     --outline:.1rem solid rgba(0,0,0,.1);
     --outline-hover:.2rem solid var(--black);
 }
+.box{
+    padding: 10px;
+}
 
 *{
     font-family: 'Poppins', sans-serif;
@@ -51,7 +54,21 @@ section{
     padding:.5rem 3rem;
     clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
 }
-
+sign{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.8rem 3rem;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    border:.2rem solid whitesmoke;
+    color:white;
+    cursor: pointer;
+    background: rgb(15, 7, 7);
+}
+sign :hover{
+    background: var(--darkbrown);
+    color:#fff;
+}
 .btn{
     margin-top: 1rem;
     display: inline-block;
@@ -629,7 +646,17 @@ section{
     color:var(--darkbrown);
 }
 
-
+/* add to card*/
+.fas fa-shopping-cart{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 360px;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
+}
 
 
 
@@ -708,4 +735,15 @@ section{
         margin: 2rem auto;
     }
 
+}
+
+
+
+
+/* new section */
+
+.icons .signup-btn{
+    padding: 10px;
+    background-color: white;
+    color: black;
 }
